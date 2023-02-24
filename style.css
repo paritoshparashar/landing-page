@@ -64,11 +64,11 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px 200px 100px 200px;
+    padding: 30px 200px 50px 200px;
 }
 .header-two{
-    font-size: 30px;
-    font-weight: 900;
+    font-size: 36px;
+    font-weight: bolder;
     padding-bottom:30px;
 }
 .image-content{
@@ -91,4 +91,20 @@ header{
     font-size: 18px;
     font-weight: 500;
     text-align: center;
+}
+
+.main-three{
+    background-color: #E5E7EB;
+    padding: 100px 200px 100px;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+.writer{
+    text-align: end;
+    font-size: 24px;
+    font-weight: 900;
 }
