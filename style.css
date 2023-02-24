@@ -6,11 +6,19 @@ body{
 }
 
 header{
-    display: flex;
-    justify-content: space-between;
     padding: 20px 200px;
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
 }
 .logo{
     font-weight: 600;
@@ -30,7 +38,7 @@ header{
     display: flex;
     padding: 50px 200px;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
 }
 .header-one{
@@ -81,8 +89,7 @@ header{
     flex-direction: column;
     gap: 10px;
 }
-.box-img{
-    
+.box-img{ 
     height: 150px;
     border-radius: 20px;
     border: 5px solid #3883F6;
@@ -96,6 +103,13 @@ header{
 .main-three{
     background-color: #E5E7EB;
     padding: 100px 200px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-two{
+    max-width: 1300px;
 }
 
 .quote{
@@ -119,6 +133,7 @@ header{
 
 .box-four{
     width: 100%;
+    max-width: 1300px;
     background-color: #3883F6;
     padding: 50px;
     border-radius: 30px;
@@ -155,6 +170,6 @@ footer{
     align-items: center;
     justify-content: center;
     color: #E5E7EB;
-    font-size: 30px;
+    font-size: 22px;
     padding: 30px;
 }
