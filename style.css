@@ -8,9 +8,8 @@ body{
 header{
     display: flex;
     justify-content: space-between;
-    padding: 20px 80px;
+    padding: 20px 200px;
     background-color: #1F2937;
-    color: white;
     align-items: center;
 }
 .logo{
@@ -21,5 +20,40 @@ header{
 .links{
     display: flex;
     gap: 20px;
+    color: #E5E7EB;
     font-weight: 18px;
+}
+
+.main-one{
+    background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+    padding: 20px 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-one{
+    width: 400px;
+}
+.top{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.para{
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 15px;
+}
+.sign-up-button-one{
+    display: inline;
+    background-color: #3883F6;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+.image-one{
+    width: 400px;
+    height: 200px;
+    background-color: rgba(79, 79, 79, 0.5);
 }
