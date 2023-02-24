@@ -108,3 +108,43 @@ header{
     font-size: 24px;
     font-weight: 900;
 }
+
+.main-four{
+    padding: 100px 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #f9faf8;
+}
+
+.box-four{
+    width: 100%;
+    background-color: #3883F6;
+    padding: 50px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.des-four{
+    font-size: 24px;
+    text-align: start;
+    width: 60%;
+}
+
+.head-four{
+    font-weight: 800;
+}
+
+.des-four-para{
+    padding-top: 10px;
+}
+
+.sign-up-button-four{
+    font-size: 20px;
+    border: 4px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+}
